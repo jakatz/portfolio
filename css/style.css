@@ -43,16 +43,20 @@ hr.star:after {
 
 /* Navigation Styling */
 .navbar {
-	
+	background: #34495e;
+	padding:20px;
 }
 .navbar .navbar-brand {
-	
+	color: #ecf0f1;
+	font-size: 2.5em;
+	font-weight: 900;
 }
 .navbar .navbar-brand:hover {
-
+	color: #1abc9c;
 }
 .navbar-inverse .navbar-nav>li>a {
-
+	color: #ecf0f1;
+	font-size: 1.5em;
 }
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:hover,
