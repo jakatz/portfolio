@@ -38,6 +38,7 @@ hr.star:after {
 	top:-.8em;
 	padding:0 .25em;
 	font-size: 2.5em;
+	background: #ecf0f1;
 }
 
 
@@ -80,7 +81,6 @@ hr.star:after {
 
 #header hr.star:after{
 	color: #e67e22;
-	background: #ecf0f1;
 }
 /*down arrow icon*/
 #header a:hover {
@@ -88,51 +88,58 @@ hr.star:after {
 }
 
 
-
 /* Work Styling */
 #work {
-	
+	color: #34495e;
 }
 #work img {
 
 }
 #work hr.star:after {
-
+	color: #e67e22;
+	background: #fff;
 }
 
 #work .portfolio-item {
-
+	height: 300px;
+	background: #eee;
 }
 
 /*Hover effect*/
 #work .portfolio-item img {
-
+	border-radius: 15px;
+	maring: 20px 0;
+	opacity: 1;
+	transition: all .3s;
 }
 
 #work .portfolio-item img:hover {
-	
-
+	margin: 5px 0;
+	opacity: .7;
 }
 
 
 /* Contact Styling */
 #contact {	
-	font-family:'Lato',sans-serif;	
+	font-family:'Lato',sans-serif;
+	color: #34495e;
+	background: #ecf0f1;
 }
 #contact h4 {
 	
 }
 #contact .has-success .form-control,
 #contact .has-success .control-label {
-
+	border-color: #34495e;
+	color: #34495e;
 }
 
 #contact hr.star {
-
 }
 
 #contact hr.star:after {
-	
+	color: #e67e22;
+	background: #ecf0f1;
 }
 #contact .btn-social {
 	display:inline-block;
@@ -164,12 +171,12 @@ hr.star:after {
 }
 
 #contact .btn-primary {
-	
+	background: #34495e;
 }
 
 #contact .btn-primary:focus,
 #contact .btn-primary:hover{
-	
+	background: #2c3e50;
 }
 
 /* Footer Styling */
