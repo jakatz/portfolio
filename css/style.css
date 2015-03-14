@@ -71,7 +71,8 @@ hr.star:after {
 
 /* Header Styling */
 #header {
-	background: #ecf0f1;
+	/*background: #ecf0f1;*/
+	background: url(../img/dolores.jpg) no-repeat center center;
 	color: #34495e;
 }
 #header .icon {
