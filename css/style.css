@@ -73,7 +73,9 @@ hr.star:after {
 	color: #34495e;
 }
 #header .icon {
-	
+	font-size: 30px;
+	margin-top: 70px;
+	display: block;
 }
 #header .skills {
 	font-size: 2.75em
@@ -83,8 +85,12 @@ hr.star:after {
 	color: #e67e22;
 }
 /*down arrow icon*/
-#header a:hover {
+#header a {
+	color: #e67e22;
+}
 
+#header a:hover {
+	color: #d35400;
 }
 
 
@@ -182,11 +188,13 @@ hr.star:after {
 
 /* Footer Styling */
 footer {
-
+	background: #34495e;
+	color: #ecf0f1;
 }
 
 footer p {
-	
+	padding: 10px 0;
+	margin: 0;
 }
 
 
