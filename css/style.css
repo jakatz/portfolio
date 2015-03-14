@@ -205,6 +205,10 @@ footer p {
 @media only screen and (min-width: 768px) and (max-width : 1024px) {
 /* Styles */
 
+#header {
+	padding-top: 100px;
+}
+
 .title {
 
 }
@@ -214,16 +218,21 @@ footer p {
 }
 
 #work .portfolio-item {
-	
+	border-radius: 15px;
+	height: 160px;
+	background: #fff;
 }
 
 #work .portfolio-item img {
-
+	border-radius: 15px;
+	margin: 20px 0;
+	opacity: 1;
+	transition
 }
 
 #work .portfolio-item img:hover {
-	
-
+	margin: 20px 0;
+	opacity: .7;
 }
 
 #contact  {
@@ -235,6 +244,7 @@ footer p {
 /* Iphone/Android (Small Devices) ----------- */
 @media only screen and (min-width : 320px) and (max-width: 767px) {
 /* Styles */
+
 
 .title {
 	font-size:3em;
@@ -257,7 +267,6 @@ footer p {
 }
 
 #work .portfolio-item img:hover {
-
 
 }
 
