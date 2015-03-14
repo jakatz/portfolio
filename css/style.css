@@ -154,20 +154,21 @@ hr.star:after {
 }
 
 #contact .btn-social i {
-	
+	color: #34495e;
 }
 
 #contact .socials>li {
-
+	margin: 25px 12px;
 }
 #contact .socials a {
-
+	transition: all .5s;
 }
 #contact .socials>li:hover a {
-
+	background: #34495e;
 }
+
 #contact .socials>li:hover i {
-	
+	color: #ecf0f1;
 }
 
 #contact .btn-primary {
