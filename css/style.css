@@ -65,14 +65,15 @@ hr.star:after {
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a {
-	
+	background: #34495e;
+	border-bottom: 5px solid #e67e22;
 }
 
 
 /* Header Styling */
 #header {
-	/*background: #ecf0f1;*/
-	background: url(../img/dolores.jpg) no-repeat center center;
+	background: #ecf0f1;
+	/*background: url(../img/dolores.jpg) no-repeat center center fixed;*/
 	color: #34495e;
 }
 #header .icon {
