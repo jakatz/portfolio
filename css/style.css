@@ -1,10 +1,11 @@
 /*Custom Style*/
 @import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
 
 
 body {	
-	font-family:'Montserrat',sans-serif;
+	font-family: 'Quicksand', 'Arial', 'Helvetica', sans-serif;
 	position: relative;
 }
 
@@ -22,7 +23,7 @@ body {
 }
 .title {
 	font-size:6em;
-	font-family:'Lato',sans-serif;
+	font-weight: 700;
 	display:block;
 }
 hr.star {
@@ -131,7 +132,6 @@ hr.star:after {
 
 /* Contact Styling */
 #contact {	
-	font-family:'Lato',sans-serif;
 	color: #34495e;
 	background: #ecf0f1;
 }
