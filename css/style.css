@@ -9,6 +9,26 @@ body {
 	position: relative;
 }
 
+.box {
+  border: 1px solid #34495e;
+  border-radius: 15px;
+  border-width: 2px;
+  height: 100px;
+  line-height: 80px;
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  margin: 10px;
+}
+
+.box:hover {
+	background-color: #DEF2FF;
+}
+
+.box:hover a {
+	color: #5F9FDF;
+}
+
 .container.nomargin {
 	margin:0;
 	padding:0;
@@ -48,7 +68,7 @@ hr.star:after {
 /* Navigation Styling */
 .navbar {
 	background: #34495e;
-	padding:20px;
+	padding:10px;
 }
 .navbar .navbar-brand {
 	color: #ecf0f1;
@@ -73,8 +93,8 @@ hr.star:after {
 
 /* Header Styling */
 #header {
-	background: #ecf0f1;
-	/*background: url(../img/dolores.jpg) no-repeat center center fixed;*/
+	/*background: #ecf0f1;*/
+	background: url(../img/dolores.jpg) no-repeat center center fixed;
 	color: #34495e;
 }
 #header .icon {
@@ -103,9 +123,21 @@ hr.star:after {
 #work {
 	color: #34495e;
 }
+
 #work img {
 
 }
+
+#work a {
+	margin: 10px;
+	padding: 10px;
+	color: #34495e;
+	text-decoration: none;
+	font-weight: 700;
+	opacity: 1;
+	font-size: 25px;
+}
+
 #work hr.star:after {
 	color: #e67e22;
 	background: #fff;
@@ -214,7 +246,7 @@ footer p {
 }
 
 .title {
-
+	
 }
 
 .padding {
